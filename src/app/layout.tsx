@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-
+import "./globals.css";
 export const metadata: Metadata = {
   title: {
     template: `%s | Sai Surya Teja`,
@@ -16,13 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{ backgroundColor: "teal" }}>
+        {/* <header style={{ backgroundColor: "teal" }}>
           <p>Header</p>
-        </header>
+        </header> */}
         {children}
-        <footer style={{ backgroundColor: "skyblue" }}>
+        {/* <footer style={{ backgroundColor: "skyblue" }}>
           <p>Footer</p>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
