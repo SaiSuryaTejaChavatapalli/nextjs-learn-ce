@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 const AboutPage = () => {
+  console.log("Server Component About");
   return <div>AboutPage</div>;
 };
 
