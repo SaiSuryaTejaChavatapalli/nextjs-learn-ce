@@ -5,7 +5,6 @@ const Layout = ({
   children: React.ReactNode;
   modal: React.ReactNode;
 }) => {
-  console.log("Modal", modal);
   return (
     <>
       <div className="bg-yellow-700">{modal}</div>

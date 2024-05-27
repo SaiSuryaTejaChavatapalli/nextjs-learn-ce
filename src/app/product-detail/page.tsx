@@ -11,6 +11,10 @@ const ProductDetailsPage = () => {
       <Suspense fallback={<p>Loading....</p>}>
         <Review />
       </Suspense>
+
+      {/* Normal loading takes more than 4 sec */}
+      {/* <Product />
+      <Review /> */}
     </div>
   );
 };
